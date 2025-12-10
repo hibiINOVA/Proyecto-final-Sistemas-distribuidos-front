@@ -1,60 +1,43 @@
-# Proyectofinal
+Catálogo de Videojuegos - Frontend (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+Este proyecto es la interfaz de usuario (frontend) construida con Angular para interactuar con un sistema de gestión de videojuegos.
+Inicio Rápido
 
-## Development server
+Sigue estos pasos para poner en marcha la aplicación web en tu entorno local.
+1. Requisitos Previos
 
-To start a local development server, run:
+Necesitas tener instalados:
 
-```bash
+    Node.js y npm: Asegúrate de tener una versión LTS (Long-Term Support).
+
+    Angular CLI: Necesario para compilar y ejecutar el proyecto.
+
+Bash
+
+# Instalar Angular CLI globalmente (si no lo tienes)
+npm install -g @angular/cli
+
+2. Instalación de Dependencias
+
+Navega al directorio raíz de este proyecto (donde se encuentra el archivo package.json) e instala todas las dependencias:
+Bash
+
+npm install
+
+3. Ejecución del Servidor
+
+Para que la aplicación funcione, el servidor API (backend) debe estar corriendo y accesible.
+
+Una vez instaladas las dependencias, inicia el servidor de desarrollo de Angular con el siguiente comando:
+Bash
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acceso a la Aplicación
 
-## Code scaffolding
+Cuando el proceso de compilación termine exitosamente, abre tu navegador web y navega a la siguiente dirección:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+http://localhost:4200/
+Nota Importante
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Proyecto-final-Sistemas-distribuidos-front
+Esta aplicación depende de una API REST externa para obtener, crear y modificar datos. Asegúrate de que el backend correspondiente esté activo y configurado correctamente para que el frontend pueda interactuar con él.
